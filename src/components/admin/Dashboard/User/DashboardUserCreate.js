@@ -26,7 +26,7 @@ export default function DashboardUserCreate(props) {
     formData.append("userRole", userRole);
 
     axios.post(
-      "://be-ecommerce-year4.herokuapp.com/users/register",
+      "https://be-ecommerce-year4.herokuapp.com/users/register",
       formData,
       config
     );

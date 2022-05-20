@@ -9,7 +9,7 @@ import QRCode from "qrcode.react";
 import { APIs } from "./ZaloPay/common";
 import $ from "jquery";
 
-const ENDPOINT = "httpss://be-ecommerce-year4.herokuapp.com";
+const ENDPOINT = "https://be-ecommerce-year4.herokuapp.com";
 
 function CheckoutBody(props) {
   const [tinh, setTinh] = useState([]);

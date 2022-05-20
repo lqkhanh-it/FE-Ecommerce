@@ -12,7 +12,9 @@ export default function ProductDetail(props) {
 
   useEffect(() => {
     axios
-      .get(`://be-ecommerce-year4.herokuapp.com/news/` + props.match.params.id)
+      .get(
+        `https://be-ecommerce-year4.herokuapp.com/news/` + props.match.params.id
+      )
       .then((res) => {
         setNews(res.data);
       });

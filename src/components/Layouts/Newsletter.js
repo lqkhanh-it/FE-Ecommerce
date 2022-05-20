@@ -11,7 +11,7 @@ export default function Newsletter() {
   const handleOnSubmit = (event) => {
     event.preventDefault();
     axios
-      .post("://be-ecommerce-year4.herokuapp.com/email", {
+      .post("https://be-ecommerce-year4.herokuapp.com/email", {
         subscriber: emailInput,
       })
       .then((res) => {

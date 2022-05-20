@@ -15,10 +15,12 @@ export default function DashboardSupportTable(props) {
   const [constEmail, setConstEmail] = useState([]);
 
   useEffect(() => {
-    axios.get(`://be-ecommerce-year4.herokuapp.com/support`).then((res) => {
-      setEmail(res.data);
-      setConstEmail(res.data);
-    });
+    axios
+      .get(`https://be-ecommerce-year4.herokuapp.com/support`)
+      .then((res) => {
+        setEmail(res.data);
+        setConstEmail(res.data);
+      });
   }, [props.isChange]);
 
   const [currentPage, setCurrentPage] = useState(1);
@@ -100,7 +102,7 @@ export default function DashboardSupportTable(props) {
 
   const deleteOnClick = (event) => {
     axios.post(
-      `://be-ecommerce-year4.herokuapp.com/support/delete/:${event.target.id}`,
+      `https://be-ecommerce-year4.herokuapp.com/support/delete/:${event.target.id}`,
       {
         id: event.target.id,
       }

@@ -28,14 +28,17 @@ export default function DashboardSupportEdit(props) {
     event.preventDefault();
 
     axios
-      .post(`://be-ecommerce-year4.herokuapp.com/support/update/${email._id}`, {
-        status: status,
-        name: name,
-        content: content,
-        subject: subject,
-        email: Email,
-        response: newsContent,
-      })
+      .post(
+        `https://be-ecommerce-year4.herokuapp.com/support/update/${email._id}`,
+        {
+          status: status,
+          name: name,
+          content: content,
+          subject: subject,
+          email: Email,
+          response: newsContent,
+        }
+      )
       .then(() => {
         props.setCloseEditFunc(false);
         props.setToastFunc(true);

@@ -10,7 +10,7 @@ export default function FashionNews(props) {
   const newsPerPage = 3;
 
   useEffect(() => {
-    axios.get(`://be-ecommerce-year4.herokuapp.com/news`).then((res) => {
+    axios.get(`https://be-ecommerce-year4.herokuapp.com/news`).then((res) => {
       setNews(res.data);
     });
   }, []);

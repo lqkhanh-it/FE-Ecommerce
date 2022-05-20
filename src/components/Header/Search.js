@@ -17,10 +17,12 @@ export default function Search(props) {
   const [toast, setToast] = useState(false);
 
   useEffect(() => {
-    axios.get(`://be-ecommerce-year4.herokuapp.com/products`).then((res) => {
-      setProducts(res.data);
-      setConstProducts(res.data);
-    });
+    axios
+      .get(`https://be-ecommerce-year4.herokuapp.com/products`)
+      .then((res) => {
+        setProducts(res.data);
+        setConstProducts(res.data);
+      });
   }, []);
 
   const search = (event) => {
@@ -40,7 +42,7 @@ export default function Search(props) {
   const cartClick = (event) => {
     const id = event.target.id;
     axios
-      .get(`://be-ecommerce-year4.herokuapp.com/products/${id}`)
+      .get(`https://be-ecommerce-year4.herokuapp.com/products/${id}`)
       .then((res) => {
         addToCart(res.data);
       });

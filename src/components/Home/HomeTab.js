@@ -9,9 +9,11 @@ export default function HomeTab() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get(`://be-ecommerce-year4.herokuapp.com/products`).then((res) => {
-      setProducts(res.data);
-    });
+    axios
+      .get(`https://be-ecommerce-year4.herokuapp.com/products`)
+      .then((res) => {
+        setProducts(res.data);
+      });
   }, []);
 
   //Get product sold

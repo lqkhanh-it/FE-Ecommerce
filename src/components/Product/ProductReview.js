@@ -51,7 +51,7 @@ export default function ProductReview(props) {
         ratingAvt: userInfo.userAvt,
       };
       axios.post(
-        `://be-ecommerce-year4.herokuapp.com/products/review/${product._id}`,
+        `https://be-ecommerce-year4.herokuapp.com/products/review/${product._id}`,
         data
       );
       setProductVote((productVote) => [...productVote, data]);
@@ -64,10 +64,10 @@ export default function ProductReview(props) {
         ratingEmail: emailInput,
         ratingStar: ratingValue,
         ratingAvt:
-          "://be-ecommerce-year4.herokuapp.com/images/16f9bbf512b66a228f7978e34d8fb163",
+          "https://be-ecommerce-year4.herokuapp.com/images/16f9bbf512b66a228f7978e34d8fb163",
       };
       axios.post(
-        `://be-ecommerce-year4.herokuapp.com/products/review/${product._id}`,
+        `https://be-ecommerce-year4.herokuapp.com/products/review/${product._id}`,
         data
       );
       setProductVote((productVote) => [...productVote, data]);

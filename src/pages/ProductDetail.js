@@ -104,7 +104,8 @@ export default function ProductDetail(props) {
     document.body.style.overflow = "unset";
     axios
       .get(
-        `://be-ecommerce-year4.herokuapp.com/products/` + props.match.params.id
+        `https://be-ecommerce-year4.herokuapp.com/products/` +
+          props.match.params.id
       )
       .then((res) => {
         setProduct(res.data);

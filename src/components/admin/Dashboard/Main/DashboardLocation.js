@@ -7,7 +7,7 @@ import axios from "axios";
 
 export default function DashboardLocation(props) {
   const [mapLink, setMapLink] = useState(
-    "httpss://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7861084.131203502!2d106.27071340282434!3d15.903283301254934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1602514190700!5m2!1sen!2s"
+    "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7861084.131203502!2d106.27071340282434!3d15.903283301254934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1602514190700!5m2!1sen!2s"
   );
   const order = props.order;
 

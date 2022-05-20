@@ -24,9 +24,12 @@ export default function NewsContent(props) {
   const timeStr = day + "." + month + "." + year;
 
   if (news._id) {
-    axios.post(`://be-ecommerce-year4.herokuapp.com/news/update/${news._id}`, {
-      countId: news._id,
-    });
+    axios.post(
+      `https://be-ecommerce-year4.herokuapp.com/news/update/${news._id}`,
+      {
+        countId: news._id,
+      }
+    );
   }
 
   return (

@@ -11,7 +11,7 @@ export default function WishListItem(props) {
   const cartClick = (event) => {
     const id = event.target.id;
     axios
-      .get(`://be-ecommerce-year4.herokuapp.com/products/${id}`)
+      .get(`https://be-ecommerce-year4.herokuapp.com/products/${id}`)
       .then((res) => {
         addToCart(res.data);
       });

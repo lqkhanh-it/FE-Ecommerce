@@ -27,7 +27,7 @@ function Login(props) {
 
   const handleOnSubmit = (event) => {
     event.preventDefault();
-    Axios.post("://be-ecommerce-year4.herokuapp.com/users/login", {
+    Axios.post("https://be-ecommerce-year4.herokuapp.com/users/login", {
       loginEmail: email,
       loginPassword: password,
     })

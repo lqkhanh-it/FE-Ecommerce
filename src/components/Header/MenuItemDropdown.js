@@ -5,7 +5,7 @@ import Dropdown from "./Dropdown";
 import Axios from "axios";
 function MenuItemDropdown(props) {
   const arrImgPhone = [];
-  // Axios.get(`://be-ecommerce-year4.herokuapp.com/products`).then((res) => {
+  // Axios.get(`https://be-ecommerce-year4.herokuapp.com/products`).then((res) => {
   //   if (res.data.length > 0) {
   //     res.data.map((item) => {
   //       if (arrImgPhone.length <= 3) {

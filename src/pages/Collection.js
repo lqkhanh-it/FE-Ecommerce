@@ -15,11 +15,11 @@ function Collection(props) {
   const path = props.history.location.pathname.slice(12);
 
   useEffect(() => {
-    Axios.get(`://be-ecommerce-year4.herokuapp.com/collection/${path}`).then(
-      (res) => {
-        setCollection(res.data);
-      }
-    );
+    Axios.get(
+      `https://be-ecommerce-year4.herokuapp.com/collection/${path}`
+    ).then((res) => {
+      setCollection(res.data);
+    });
   }, [path]);
 
   useEffect(() => {

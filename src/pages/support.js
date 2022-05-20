@@ -20,7 +20,7 @@ function Support() {
 
     const formData = new FormData();
     axios
-      .post("://be-ecommerce-year4.herokuapp.com/support", {
+      .post("https://be-ecommerce-year4.herokuapp.com/support", {
         name: inputValue.name,
         email: inputValue.email,
         subject: inputValue.subject,

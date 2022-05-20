@@ -37,7 +37,7 @@ export default function DashboardUserCreate(props) {
 
     axios
       .post(
-        `://be-ecommerce-year4.herokuapp.com/users/update/${user._id}`,
+        `https://be-ecommerce-year4.herokuapp.com/users/update/${user._id}`,
         formData,
         config
       )
