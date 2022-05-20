@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0afd47cf.chunk.css",
+    "main.js": "/static/js/main.99b15d9a.chunk.js",
+    "main.js.map": "/static/js/main.99b15d9a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.964f6ae2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.964f6ae2.js.map",
+    "static/css/2.f8fbd7ad.chunk.css": "/static/css/2.f8fbd7ad.chunk.css",
+    "static/js/2.ae0301e1.chunk.js": "/static/js/2.ae0301e1.chunk.js",
+    "static/js/2.ae0301e1.chunk.js.map": "/static/js/2.ae0301e1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5536e8c69a38727f36fe5e912ed664a6.js": "/precache-manifest.5536e8c69a38727f36fe5e912ed664a6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.f8fbd7ad.chunk.css.map": "/static/css/2.f8fbd7ad.chunk.css.map",
+    "static/css/main.0afd47cf.chunk.css.map": "/static/css/main.0afd47cf.chunk.css.map",
+    "static/js/2.ae0301e1.chunk.js.LICENSE.txt": "/static/js/2.ae0301e1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/newsbanner.0b241cc1.jpg",
+    "static/media/S4.jpg": "/static/media/S4.7c383443.jpg",
+    "static/media/accessories-dropdown.jpg": "/static/media/accessories-dropdown.8cbae77a.jpg",
+    "static/media/accessories-dropdown2.jpg": "/static/media/accessories-dropdown2.bf7db14a.jpg",
+    "static/media/accessories-dropdown3.jpg": "/static/media/accessories-dropdown3.02d6e693.jpg",
+    "static/media/b1.jpg": "/static/media/b1.f8447075.jpg",
+    "static/media/b2.jpg": "/static/media/b2.c258223a.jpg",
+    "static/media/b3.jpg": "/static/media/b3.904f6912.jpg",
+    "static/media/b4.jpg": "/static/media/b4.a2234c33.jpg",
+    "static/media/contact.jpg": "/static/media/contact.e71cf4b4.jpg",
+    "static/media/login-bg.jfif": "/static/media/login-bg.ae69c2e9.jfif",
+    "static/media/phone-dropdown.jpg": "/static/media/phone-dropdown.62d01c3b.jpg",
+    "static/media/phone-dropdown2.jpg": "/static/media/phone-dropdown2.165009d8.jpg",
+    "static/media/phone-dropdown3.jpg": "/static/media/phone-dropdown3.b18556e3.jpg",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.964f6ae2.js",
+    "static/css/2.f8fbd7ad.chunk.css",
+    "static/js/2.ae0301e1.chunk.js",
+    "static/css/main.0afd47cf.chunk.css",
+    "static/js/main.99b15d9a.chunk.js"
+  ]
+}
