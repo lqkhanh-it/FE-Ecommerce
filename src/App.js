@@ -10,6 +10,7 @@ import ProductDetail from "./pages/ProductDetail.js";
 import Collection from "./pages/Collection";
 import NewsDetail from "./pages/NewsDetail";
 import OpenChatBtn from "./components/OpenChatBtn";
+import ScrollTopBtn from "./components/ScrollTopBtn";
 import NewsCate from "./pages/NewsCate";
 
 import Login from "./components/admin/Login/Login";
@@ -83,6 +84,7 @@ function App(props) {
               <Route path="/support" exact component={Support}></Route>
             </div>
             <OpenChatBtn />
+            <ScrollTopBtn />
           </Router>
           {/* } */}
         </ChatProvider>
