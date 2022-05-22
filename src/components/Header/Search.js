@@ -84,7 +84,7 @@ export default function Search(props) {
               <div className="cart-item flex" key={index}>
                 <div className="cart-product-img">
                   <img
-                    src={item.productImg[0]}
+                    src={"data:image/png;base64," + item.productImg[0]}
                     width="80px"
                     height="100%"
                     alt=""
