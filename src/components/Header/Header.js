@@ -18,6 +18,7 @@ import { CartContext } from "../../contexts/Cart";
 import Div100vh from "react-div-100vh";
 import axios from "axios";
 import { UserContext } from "../../contexts/User";
+import ToggleTheme from "./ToggleTheme";
 
 function Header(props) {
   const { userInfo } = useContext(UserContext);
@@ -484,6 +485,7 @@ function Header(props) {
           whitelink_header: whiteText === true,
         })}
       >
+        <ToggleTheme></ToggleTheme>
         <div className="icon-container">
           <FontAwesomeIcon
             icon={faSearch}

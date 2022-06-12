@@ -1,3 +1,48 @@
+html[data-theme="dark"]  {
+  --color: #dcdcdc;
+  --background-color: #292929;
+}
+
+html[data-theme="light"]  {
+  --background-color: #fff;
+  --color: black;
+}
+
+/* darkmode */
+
+html, body{
+  background: var(--background-color);
+}
+
+
+html *:not(i):not(cite):not(input):not(textarea):not(button):not(.cart-checkout-btn):not(.cart-count , .cart-count p):not(.product-icon-box, .product-icon-box svg, .product-icon-box path):not(.scroll-top-btn-container-hover, .scroll-top-btn-container-hover svg, .scroll-top-btn-container-hover path):not(.product-info-addtocart, .product-info-addtocart svg, .product-info-addtocart path, .product-info-addtocart p):not(.chat-btn-container, .chat-btn-container svg, .chat-btn-container path, .chat-btn-container p ):not(.newsbanner-overlay, .newsbanner-overlay .newsbanner-title, .newsbanner-overlay .newsbanner-breadcrumb, .newsbanner-overlay .newsbanner-breadcrumb div ) {
+  color: var(--color) !important;
+}
+.Header:hover{
+  background-color: var(--background-color) !important;
+}
+.Search, .Account, .Cart, .menu-mobile-left, .cart-checkout-box, .BannerV4, .confirmPage, .filter-box{
+  background-color: var(--background-color) !important;
+}
+.billing-detail-table .input{
+  color: var(--color) !important;
+  background: var(--background-color) !important;
+}
+.dashboard-right input, .dashboard-right .input{
+  background: var(--background-color) !important;
+  color: var(--color) !important;
+}
+.dashboard-table tr:nth-child(even){
+  background: var(--background-color) !important;
+}
+
+.login-form input{
+  background: transparent;
+}
+
+
+/* end darkmode */
+
 .App {
   position: relative;
 }
@@ -2288,7 +2333,7 @@
 .cart-checkout-box {
   width: 100%;
   background-color: #fff;
-  border: 1px #ddd solid;
+  border: 1px transparent solid;
   height: 100px;
   position: fixed;
   bottom: 0;

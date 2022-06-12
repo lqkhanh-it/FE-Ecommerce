@@ -1,6 +1,6 @@
 .scroll-top-btn-container{
     position: fixed;
-    top: 86%;
+    top: 91%;
     right: 0;
     border: 1px solid;
     border-radius: 2rem;
@@ -8,7 +8,7 @@
 }
 .scroll-top-btn-container-hover{
     position: fixed;
-    top: 86%;
+    top: 91%;
     right: 0;
     border: 1px solid;
     border-radius: 2rem;
